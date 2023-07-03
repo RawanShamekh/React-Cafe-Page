@@ -1,0 +1,78 @@
+.about {
+  padding-top: 100px ;
+  font-size: 18px;
+    font-family: var(--font-family);
+
+}
+.about h3{
+
+    background-color:#000;
+    color: #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: auto;
+    font-weight: 400;
+    font-family: var(--font-family);
+    border-radius: 3px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    
+  
+}
+
+.about p{
+
+    font-family: var(--font-family);
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-left: 10px;
+    font-weight: 100;
+
+}
+.quote-content {
+    position: relative;
+    background-color:#fff;
+    padding: 50px 30px;
+    margin: 50px 0;
+    border-left: 8px solid #CCC;
+}
+
+.quote-content p{
+    position: relative;
+
+}
+.quote-content p::before{
+    font-family: "Font Awesome 5 free";
+    content: "\f10d";
+    font-weight: 600;
+    margin-right: 5px;
+}
+.quote-content p::after{
+    font-family: "Font Awesome 5 free";
+    content: "\f10e";
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+
+.loc-data{
+    font-size: 20px;
+    font-family: var(--font-family);
+    padding: 30px 0;
+
+}
+
+.location img{
+    width: 100%;
+    max-width: 100%;
+  filter: grayscale(70%);
+}
+.location p{
+    font-weight:900;
+    margin-bottom: 10px;
+
+}
+.location  span{
+    font-weight: 200;
+}
